@@ -85,3 +85,8 @@ footer {
 #video{
 	padding-bottom: 30px;
 }
+.carousel-indicators::scrollbar {
+	display:none;
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}

@@ -78,11 +78,13 @@ footer {
     opacity: 0.8;
 }
 
-.carousel-item img {
-   position: relative;
-    width:70%;
-    left:15%;
+.img-container img {
+	height:480px;
 }
 #video{
 	padding-bottom: 30px;
+}
+.img-container{
+	display:flex;
+	justify-content:center;
 }
